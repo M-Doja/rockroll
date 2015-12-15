@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'jquery-css-transform' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of c:\Users\MICAH\documents\camp-projects\jquery\rockroll\package.json
+5 warn package.json scratch@1.0.0 No repository field.
+6 warn package.json scratch@1.0.0 No README data
+7 verbose readDependencies loading dependencies from c:\Users\MICAH\documents\camp-projects\jquery\rockroll\package.json
+8 silly cache add args [ 'jquery-css-transform', null ]
+9 verbose cache add spec jquery-css-transform
+10 silly cache add parsed spec { raw: 'jquery-css-transform',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'jquery-css-transform',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed jquery-css-transform@*
+12 verbose addNamed "*" is a valid semver range for jquery-css-transform
+13 silly addNameRange { name: 'jquery-css-transform', range: '*', hasData: false }
+14 silly mapToRegistry name jquery-css-transform
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/jquery-css-transform
+18 verbose addNameRange registry:https://registry.npmjs.org/jquery-css-transform not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/jquery-css-transform
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 7:41:07 PM
+22 verbose request using bearer token for auth
+23 verbose request id 62a8d20bd8410ca0
+24 http request GET https://registry.npmjs.org/jquery-css-transform
+25 http 404 https://registry.npmjs.org/jquery-css-transform
+26 verbose headers { 'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '2',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Tue, 15 Dec 2015 03:41:06 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1450150866.629915,VS0,VE49' }
+27 silly get cb [ 404,
+27 silly get   { 'content-type': 'application/json',
+27 silly get     'cache-control': 'max-age=0',
+27 silly get     'content-length': '2',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Tue, 15 Dec 2015 03:41:06 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-lax1428-LAX',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1450150866.629915,VS0,VE49' } ]
+28 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/jquery-css-transform
+28 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:239:14)
+28 verbose stack     at Request._callback (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+28 verbose stack     at Request.self.callback (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:354:22)
+28 verbose stack     at Request.emit (events.js:110:17)
+28 verbose stack     at Request.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1207:14)
+28 verbose stack     at Request.emit (events.js:129:20)
+28 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1153:12)
+28 verbose stack     at IncomingMessage.emit (events.js:129:20)
+28 verbose stack     at _stream_readable.js:908:16
+28 verbose stack     at process._tickCallback (node.js:355:11)
+29 verbose statusCode 404
+30 verbose pkgid jquery-css-transform
+31 verbose cwd c:\Users\MICAH\documents\camp-projects\jquery\rockroll
+32 error Windows_NT 6.3.9600
+33 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "jquery-css-transform"
+34 error node v0.12.7
+35 error npm  v2.11.3
+36 error code E404
+37 error 404 Registry returned 404 for GET on https://registry.npmjs.org/jquery-css-transform
+37 error 404
+37 error 404 'jquery-css-transform' is not in the npm registry.
+37 error 404 You should bug the author to publish it (or use the name yourself!)
+37 error 404 It was specified as a dependency of 'scratch'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, http url, or git url.
+38 verbose exit [ 1, true ]
